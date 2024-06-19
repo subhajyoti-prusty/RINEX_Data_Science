@@ -5,7 +5,7 @@
 * Started with Python,<br>
 The basic syntax of Python printing statements and how the concatenation is done. Then, moving on to data types, there are 5 main categories of data types. 
 
-![Day1](Day1.jpeg)
+![Day1](Day1.jpg)
 
 # DAY 2
 
