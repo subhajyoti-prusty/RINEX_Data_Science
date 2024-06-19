@@ -5,7 +5,7 @@
 * Started with Python,<br>
 The basic syntax of Python printing statements and how the concatenation is done. Then, moving on to data types, there are 5 main categories of data types. 
 
-<imp src="https://media.geeksforgeeks.org/wp-content/uploads/20191023173512/Python-data-structure.jpg"/>
+![Day1](Day1.jpeg)
 
 # DAY 2
 
@@ -267,7 +267,7 @@ my_string = "Hello, World!"
 print(f"The length of the string is: {len(my_string)}")
 
 ```
-* Example: [Day2]()
+* Example: [Day2](https://github.com/subhajyoti-prusty/RINEX_Data_Science/blob/bfe874f90c4b1c77923382999693c6c6fb499930/Day2.ipynb)
 
 
 #DAY 3
@@ -340,4 +340,4 @@ while i <= 10:
         continue
     i+=1
 ```
-* Example: [Day3]()
+* Example: [Day3](https://github.com/subhajyoti-prusty/RINEX_Data_Science/blob/bfe874f90c4b1c77923382999693c6c6fb499930/Day3.ipynb)
