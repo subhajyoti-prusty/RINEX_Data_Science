@@ -270,7 +270,7 @@ print(f"The length of the string is: {len(my_string)}")
 * Example: [Day2](https://github.com/subhajyoti-prusty/RINEX_Data_Science/blob/bfe874f90c4b1c77923382999693c6c6fb499930/Day2.ipynb)
 
 
-#DAY 3
+# DAY 3
 
 ## Python Loops 
 
@@ -341,3 +341,22 @@ while i <= 10:
     i+=1
 ```
 * Example: [Day3](https://github.com/subhajyoti-prusty/RINEX_Data_Science/blob/bfe874f90c4b1c77923382999693c6c6fb499930/Day3.ipynb)
+
+# DAY 4
+## Probability and Statistics
+
+* Statistics are of 2 types
+  1. Descriptive Statistics
+  2. Inferential Statistics
+   
+### Descriptive Statistics
+Measures of central tendency are:-
+- Mean:- <br>
+      It's the average of the given numbers.
+
+- Median:-<br>
+      It's the middle number after sorting the given set of numbers.
+   
+- Mode:-<br>
+      The element that occurs for the most number of time in the set of data.
+   
