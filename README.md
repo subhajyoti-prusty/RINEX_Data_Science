@@ -359,4 +359,6 @@ Measures of central tendency are:-
    
 - Mode:-<br>
       The element that occurs for the most number of time in the set of data.
-   
+
+* Example: [Day4](https://github.com/subhajyoti-prusty/RINEX_Data_Science/blob/9b9f904804dda366392d91d03fb2bd5ad813968b/Day4.xlsx)
+
