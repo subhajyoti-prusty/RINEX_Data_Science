@@ -352,13 +352,60 @@ while i <= 10:
 ### Descriptive Statistics
 Measures of central tendency are:-
 - Mean:- <br>
-      It's the average of the given numbers.
-
+      It's the average of the given numbers.<br>
+        Mean =  sum of the terms / number of terms
 - Median:-<br>
       It's the middle number after sorting the given set of numbers.
-   
+       Median = (n + 1) ÷ 2  (For odd terms) <br>
+       Median = {(n ÷ 2) + [(n ÷ 2) + 1]} ÷ 2 (For even terms) <br>
+       
+        n is the number of values in data set
 - Mode:-<br>
-      The element that occurs for the most number of time in the set of data.
+      The element that occurs for the most number of time in the set of data.<br>
+        Mode = L + [(f1 – f0) / (2f1 – f0 – f2)] × h
 
+        l is the lower limit of the modal class.
+        h is the size of the class interval,
+        f1 is the frequency of the modal class,
+        f0 is the frequency of the class preceding the modal class, and
+        f2 is the frequency of the class succeeding the modal class.
 * Example: [Day4](https://github.com/subhajyoti-prusty/RINEX_Data_Science/blob/9b9f904804dda366392d91d03fb2bd5ad813968b/Day4.xlsx)
 
+Method of Dispersion:-
+- Range:- <br>
+    Max element - Min element <br>
+  
+- Variance:- <br>
+    Sum of squared Deviation / Total number of elements <br>
+    
+- SP:- <br>
+    The square root of Variance  <br>
+    
+- Deviation:- <br>
+    Observation value - Mean value <br>
+
+* Probability
+  1. Permutation 
+  2. Combination
+
+ ### Permutation
+  - Repetitions are allowed  <br>
+  - nPr = factorial(n)/factorial(n-r)
+
+ ### Combination
+  - Repetitions are not allowed <br>
+  - nCr = factorial(n)/(factorial(r)*factorial(n-r))
+
+```python
+def factorial(x):
+    fact = 1
+    for i in range(1,x+1):
+        fact = fact * i
+    return fact
+n = int(input("Enter n value: "))
+r = int(input("ENter r value: "))
+MA1 = factorial(n)/(factorial(r)*factorial(n-r))
+MA2 = factorial(n)/factorial(r)
+print("Answer for npr is: ",MA2)
+print("Answer for ncr is: ",MA1)
+```
