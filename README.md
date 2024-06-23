@@ -1,4 +1,5 @@
 # DAY 1
+
 ## Pythons Syntax & Data type 
 
 * Started with Python,<br>
