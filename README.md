@@ -409,3 +409,4 @@ MA2 = factorial(n)/factorial(r)
 print("Answer for npr is: ",MA2)
 print("Answer for ncr is: ",MA1)
 ```
+
